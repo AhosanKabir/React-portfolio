@@ -269,6 +269,7 @@ video {
 
 .about-image:hover::after {
   transform: rotate(10deg);
+  opacity: 0.1;
 }
 
 .about-image::before {
