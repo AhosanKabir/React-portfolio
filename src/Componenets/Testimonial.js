@@ -41,11 +41,11 @@ const Testimonial = () => {
                                 
 
                                 <div className="arrows">
-                                    <i class="fa-solid fa-arrow-left"
+                                    <i className="fa-solid fa-arrow-left"
                                     onClick={()=>{
                                         selected ===0 ? setSelected(tlength-1) : setSelected((prev)=>prev-1)
                                     }}></i>
-                                    <i class="fa-sharp fa-solid fa-arrow-right" 
+                                    <i className="fa-sharp fa-solid fa-arrow-right" 
                                     onClick={()=>{
                                         selected ===tlength-1? setSelected(0) : setSelected((prev)=>prev+1)
                                     }}></i>

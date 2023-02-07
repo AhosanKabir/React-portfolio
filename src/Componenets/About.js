@@ -24,7 +24,7 @@ const About = () => {
             }}
           >
             {/* <img src="/img/pic.png" alt="my-pictures" className="img-fluid" /> */}
-            <div class="about-image">
+            <div className="about-image">
               <img
                 src="img/pic.png"
                 alt="my-pictures"
@@ -70,7 +70,7 @@ const About = () => {
 
             <a
               type="button"
-              class="btn btn-primary about-btn"
+              className="btn btn-primary about-btn"
               fdprocessedid="5p07z9"
               href="Resume-Ahosan-Kabir-.pdf"
               download

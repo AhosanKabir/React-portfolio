@@ -16,16 +16,16 @@ const FooterComponent = () => {
                     <Col xl="6" md="12" sm="12">
                         <div className="footer-icons">
                             <a href='https://www.facebook.com/ahosan.kabir.73' target="_blank" rel="noreferrer" >
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                             <a href='https://www.linkedin.com/in/ahosan-kabir-48a893213/' target="_blank" rel='noreferrer'>
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i className="fa-brands fa-linkedin-in"></i>
                             </a>
                             <a href='https://github.com/AhosanKabir' target="_blank" rel='noreferrer'>
-                                <i class="fa-brands fa-github"></i>
+                                <i className="fa-brands fa-github"></i>
                             </a>
                             <a href="mailto:kaziahosan1998@gmail.com" target="_blank" rel='noreferrer'>
-                                <i class="fa-solid fa-envelope-circle-check"></i>
+                                <i className="fa-solid fa-envelope-circle-check"></i>
                             </a>
                         </div>
                     </Col>

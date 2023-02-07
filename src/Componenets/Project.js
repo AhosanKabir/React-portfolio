@@ -33,8 +33,8 @@ const Project = () => {
                         </p>
 
                         <a href="https://github.com/AhosanKabir" target="_blank" rel="noreferrer" className='github-btn'>
-                            <button type="button" class="btn btn-primary" fdprocessedid="ebkvu9">
-                                visit my github profile <i class="fa-brands fa-github"></i>
+                            <button type="button" className="btn btn-primary" fdprocessedid="ebkvu9">
+                                visit my github profile <i className="fa-brands fa-github"></i>
                             </button>
                         </a>   
                     </Col>
