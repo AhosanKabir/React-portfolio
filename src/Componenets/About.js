@@ -26,7 +26,8 @@ const About = () => {
             {/* <img src="/img/pic.png" alt="my-pictures" className="img-fluid" /> */}
             <div class="about-image">
               <img
-                src={require("../assets/pic.png")}
+                // src={require("../assets/pic.png")}
+                src="/img/pic.png"
                 alt="my-pictures"
                 className="img-fluid owner_img"
               />
