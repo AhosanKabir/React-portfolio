@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myPic from "../../public/img/pic.png"
+import myPic from "../images/pic.png"
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
             {/* <img src="/img/pic.png" alt="my-pictures" className="img-fluid" /> */}
             <div className="about-image">
               <img
-                src="img/pic.png"
+                src={myPic}
                 alt="my-pictures"
                 className="img-fluid owner_img"
               />

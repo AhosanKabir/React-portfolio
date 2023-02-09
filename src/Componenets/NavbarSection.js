@@ -7,7 +7,7 @@ function NavbarSection() {
     <Navbar bg="light" expand="lg" sticky='top'>
       <Container>
         <Navbar.Brand href="#home" className='logo-div'>
-          <img src="img/type-a.png" alt="" className='img-fluid logo'/>
+          <img src={require("../images/type-a.png")} alt="" className='img-fluid logo'/>
           hosan
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -12,6 +12,12 @@ import "swiper/css/pagination";
 import { Pagination, Keyboard, Autoplay} from "swiper";
 import { Col, Container, Row } from "react-bootstrap";
 
+//image import:
+import himel from "../images/himel.jpeg"
+import fa from "../images/fa.jpg"
+import fahad from "../images/fahad.jpg"
+import jame from "../images/jame.jpg"
+import z from "../images/z.jpg"
 export default function ReviewMe() {
 
   return (
@@ -45,7 +51,7 @@ export default function ReviewMe() {
                             <Row className="align-items-center">
                                 <Col xl="6" md='6' sm="12">
                                     <div className="sliders-img">
-                                        <img src="/img/himel.jpeg" alt=""/>
+                                        <img src={himel} alt=""/>
                                     </div>
                                 </Col>
                                 <Col xl="6" md="6" sm="12">
@@ -68,7 +74,7 @@ export default function ReviewMe() {
                             <Row className="align-items-center">
                                 <Col xl="6" md='6' sm="12">
                                     <div className="sliders-img">
-                                        <img src="/img/fa.jpg" alt=""/>
+                                        <img src={fa} alt=""/>
                                     </div>
                                 </Col>
                                 <Col xl="6" md="6" sm="12">
@@ -91,7 +97,7 @@ export default function ReviewMe() {
                             <Row className="align-items-center">
                                 <Col xl="6" md='6' sm="12">
                                     <div className="sliders-img">
-                                        <img src="/img/z.jpg" alt=""/>
+                                        <img src={jame} alt=""/>
                                     </div>
                                 </Col>
                                 <Col xl="6" md="6" sm="12">
@@ -114,7 +120,7 @@ export default function ReviewMe() {
                             <Row className="align-items-center">
                                 <Col xl="6" md='6' sm="12">
                                     <div className="sliders-img">
-                                        <img src="/img/pic.png" alt=""/>
+                                        <img src={fahad} alt=""/>
                                     </div>
                                 </Col>
                                 <Col xl="6" md="6" sm="12">
@@ -137,7 +143,7 @@ export default function ReviewMe() {
                             <Row className="align-items-center">
                                 <Col xl="6" md='6' sm="12">
                                     <div className="sliders-img">
-                                        <img src="/img/z.jpg" alt=""/>
+                                        <img src={z} alt=""/>
                                     </div>
                                 </Col>
                                 <Col xl="6" md="6" sm="12">

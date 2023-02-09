@@ -1,5 +1,9 @@
 import React from 'react'
 import { Container , Row, Col} from 'react-bootstrap'
+import project1 from "../images/p-1.png"
+import project2 from "../images/p-2.png"
+import project3 from "../images/p-3.png"
+import project4 from "../images/p-4.png"
 
 const Project = () => {
   return (
@@ -44,7 +48,9 @@ const Project = () => {
                                 <div className="col-12">
                                     <div className="project-single-top">
                                         <div className="project-single-element  py-3">
-                                            <img src="/img/p-4.png" alt="project-pic" className='img-fluid'/>
+                                            <a href="https://ahosankabir.github.io/guess-my-number/" target="_blank" rel='noreferrer'>
+                                                <img src={project4} alt="project-pic" className='img-fluid'/>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -53,14 +59,18 @@ const Project = () => {
                                 <div className="col-6">
                                     <div className="project-single-middle">
                                         <div className="project-single-element  py-3">
-                                            <img src="/img/p-1.png" alt="project-pic" className='img-fluid'/>
-                                        </div>
+                                            <a href="https://ahosankabir.github.io/rosa/" target="_blank" rel='noreferrer'>
+                                                <img src={project1} alt="project-pic" className='img-fluid'/>
+                                            </a>
+                                        </div>    
                                     </div>
                                 </div>
                                 <div className="col-6">
                                     <div className="project-single-middle">
                                         <div className="project-single-element  py-3">
-                                            <img src="/img/p-3.png" alt="project-pic" className='img-fluid'/>
+                                            <a href="https://ahosankabir.github.io/PROJECt/" target="_blank" rel='noreferrer'>
+                                                <img src={project3} alt="project-pic" className='img-fluid'/>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +79,9 @@ const Project = () => {
                                 <div className="col-12">
                                     <div className="project-single-top">
                                         <div className="project-single-element  py-3">
-                                            <img src="/img/p-2.png" alt="project-pic" className='img-fluid'/>
+                                            <a href="https://ahosankabir.github.io/TAxicab-project/" target="_blank" rel='noreferrer'>
+                                                <img src={project2} alt="project-pic" className='img-fluid'/>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
